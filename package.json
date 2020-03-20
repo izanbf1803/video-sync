@@ -1,0 +1,9 @@
+{
+  "name": "video-sync",
+  "version": "0.0.1",
+  "description": "video sync",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"></script>
+		<script 
+			src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" 
+			integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" 
+			crossorigin="anonymous"></script>
+		<script src="sync.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<div id="choose-file">
+			<form id="file-form">
+					<label for="file-input">Selecciona el archivo de vídeo:</label>
+					<input type="file" id="file-input" name="file-input" required>
+					<br>
+					<label for="code-input">Código de la sala:</label>
+					<input id="code-input" name="code-input" autocomplete="off" required>
+					<br>
+					<button>Entrar</button>
+			</form>
+			<br><br><br>
+			<a href="https://twitter.com/izanbf1803">@izanbf1803</a>
+		</div>
+
+		<div id="video-player">
+			<center>
+				<video id="my-video" width="100%" controls></video>
+			</center>
+		</div>
+	</body>
+</html>

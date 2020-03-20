@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+form {
+    color: white;
+}
+a {
+    color: white;
+}
+#choose-file {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+input {
+    margin-top: 10px;
+}
+button {
+    margin-top: 20px;
+}
